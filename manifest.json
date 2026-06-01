@@ -382,7 +382,7 @@
 					"@type": "sc:Canvas",
 					"otherContent": [
 					   {
-                        "@id": "http://localhost:8888/al-demo.json",
+                        "@id": "https://raw.githubusercontent.com/kiraset/iiif/refs/heads/main/al-demo.json",
                         "@type": "sc:AnnotationList"
                        }
                   ]
