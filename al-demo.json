@@ -1,0 +1,25 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8888/al-demo.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource":{
+        "@type": "cnt:ContentAsText",
+        "chars": "My first text annotation for canvas 1"
+      },
+      "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8451636f/canvas/f11#xywh=0,0,750,300"
+    },
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource":{
+        "@type": "cnt:ContentAsText",
+        "chars": "My second text annotation for canvas 1"
+      },
+      "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8451636f/canvas/f11#xywh=0,0,750,300"
+    }
+  ]
+}
