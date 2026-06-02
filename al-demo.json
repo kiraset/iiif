@@ -1,25 +1,26 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8888/al-demo.json",
+  "@id": "https://raw.githubusercontent.com/kiraset/iiif/refs/heads/main/al-demo.json",
   "@type": "sc:AnnotationList",
   "resources": [
     {
       "@type": "oa:Annotation",
-      "motivation": "sc:painting",
+      "motivation": "sc:commenting",
       "resource":{
-        "@type": "cnt:ContentAsText",
-        "chars": "My first text annotation for canvas 1"
+        "@type": "dctypes:Text",
+        "format":"text/plain",
+        "chars": "losΙpu nicit qun coNpus oũ Sipiliurt"
       },
-      "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8451636f/canvas/f11#xywh=0,0,750,300"
+      "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8451636f/canvas/f11#xywh=697,639,1431,252"
     },
     {
       "@type": "oa:Annotation",
-      "motivation": "sc:painting",
+      "motivation": "sc:commenting",
       "resource":{
-        "@type": "cnt:ContentAsText",
-        "chars": "My second text annotation for canvas 1"
+        "@type": "dctypes:Text",
+        "chars": "uiꝵ oui pon uabi"
       },
-      "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8451636f/canvas/f11#xywh=0,0,750,300"
+      "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8451636f/canvas/f11#xywh=395,1451,705,208"
     }
   ]
 }
