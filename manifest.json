@@ -380,13 +380,6 @@
 						"@id": "https://gallica.bnf.fr/ark:/12148/btv1b8451636f/f11.thumbnail"
 					},
 					"@type": "sc:Canvas",
-					"otherContent": [
-					   {
-                        "@id": "https://raw.githubusercontent.com/kiraset/iiif/refs/heads/main/al-demo.json",
-                        "@type": "sc:AnnotationList",
-                        "label": "Transcriptions"
-                       }
-                  ],
                   "annotations": [
                         {
                             "id": "https://arkindex.teklia.com/api/v1/l1",
