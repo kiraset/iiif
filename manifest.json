@@ -383,9 +383,41 @@
 					"otherContent": [
 					   {
                         "@id": "https://raw.githubusercontent.com/kiraset/iiif/refs/heads/main/al-demo.json",
-                        "@type": "sc:AnnotationList"
+                        "@type": "sc:AnnotationList",
+                        "label": "Transcriptions"
                        }
-                  ]
+                  ],
+                  "annotations": [
+                        {
+                            "id": "https://arkindex.teklia.com/api/v1/l1",
+                            "type": "AnnotationPage",
+                            "items": [
+                                {
+                                    "id": "https://arkindex.teklia.com/api/v1/l1/0",
+                                    "type": "Annotation",
+                                    "motivation": "commenting",
+                                    "body": {
+                                        "type": "TextualBody",
+                                        "value": "losΙpu nicit qun coNpus oũ Sipiliurt",
+                                        "format": "text/plain"
+                                    },
+                                    "target": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8451636f/canvas/f11#xywh=697,639,1431,252"
+                                },
+                                {
+                                    "id": "https://arkindex.teklia.com/api/v1/l1/1",
+                                    "type": "Annotation",
+                                    "motivation": "commenting",
+                                    "body": {
+                                        "type": "TextualBody",
+                                        "value": "uiꝵ oui pon uabi",
+                                        "format": "text/plain"
+                                    },
+                                    "target": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8451636f/canvas/f11#xywh=395,1451,705,208"
+                                }
+                                ]
+                               }
+                                ]
+                  
 				},
 				{
 					"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8451636f/canvas/f12",
