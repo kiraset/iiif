@@ -198,16 +198,7 @@
                     },
                     {
                     "id": "https://w3id.org/iaw/data/publications/annotation-sets/01K7NC6SDDGQVMC9C1KDNXQTYF/page/38",
-                    "type": "AnnotationPage",
-                    "partOf": {
-                        "id": "https://w3id.org/iaw/data/publications/annotation-sets/01K7NC6SDDGQVMC9C1KDNXQTYF",
-                        "type": "AnnotationCollection",
-                        "label": {
-                            "none": [
-                                "Gandhari Syllables"
-                            ]
-                        }
-                    }
+                    "type": "AnnotationPage"
                     
                         }
                     ]
